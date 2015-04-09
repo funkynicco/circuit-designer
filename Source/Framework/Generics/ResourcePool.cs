@@ -10,5 +10,6 @@ namespace CircuitDesign.Framework.Generics
     public sealed class ResourcePool
     {
         public readonly Font TextFont = new Font("Calibri", 13.0f);
+        public readonly Font ComponentNameFont = new Font("Calibri", 9.0f);
     }
 }

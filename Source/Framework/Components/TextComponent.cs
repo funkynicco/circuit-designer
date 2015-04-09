@@ -25,15 +25,15 @@ namespace CircuitDesign.Framework.Components
         }
 
         public TextComponent(Point pos, string text) :
-            base(new Size(0, 0))
+            base(null, "Text", new Size(0, 0))
         {
             Position = pos;
             _text = text;
         }
 
-        public override void Render(ResourcePool resource, Graphics g)
+        public override void Render(ResourcePool resource, Graphics g,Rectangle bounds)
         {
-            g.DrawString(_text, resource.TextFont, Brushes.White, base.Position);
+            g.DrawString(_text, resource.TextFont, Brushes.White, Point.Add(Position, new Size(bounds.Left, bounds.Top)));
         }
     }
 }

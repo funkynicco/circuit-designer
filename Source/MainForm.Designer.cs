@@ -40,7 +40,7 @@
             this.gridToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showGridToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.renderSurface = new CircuitDesign.Controls.RenderSurface();
+            this.schematicSurface = new CircuitDesign.Controls.SchematicSurface();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,18 +136,18 @@
             // 
             // renderSurface
             // 
-            this.renderSurface.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.renderSurface.Location = new System.Drawing.Point(200, 24);
-            this.renderSurface.Name = "renderSurface";
-            this.renderSurface.Size = new System.Drawing.Size(739, 596);
-            this.renderSurface.TabIndex = 2;
+            this.schematicSurface.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.schematicSurface.Location = new System.Drawing.Point(200, 24);
+            this.schematicSurface.Name = "renderSurface";
+            this.schematicSurface.Size = new System.Drawing.Size(739, 596);
+            this.schematicSurface.TabIndex = 2;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(939, 620);
-            this.Controls.Add(this.renderSurface);
+            this.Controls.Add(this.schematicSurface);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -174,7 +174,7 @@
         private System.Windows.Forms.ToolStripMenuItem gridToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showGridToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
-        private Controls.RenderSurface renderSurface;
+        private Controls.SchematicSurface schematicSurface;
     }
 }
 

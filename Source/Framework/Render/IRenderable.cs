@@ -10,6 +10,6 @@ namespace CircuitDesign.Framework.Render
 {
     public interface IRenderable
     {
-        void Render(ResourcePool resource, Graphics g);
+        void Render(ResourcePool resource, Graphics g, Rectangle bounds);
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace CircuitDesign.Controls
 {
-    partial class RenderSurface
+    partial class SchematicSurface
     {
         /// <summary> 
         /// Required designer variable.
