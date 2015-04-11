@@ -123,7 +123,7 @@
             this.showGridToolStripMenuItem.Checked = true;
             this.showGridToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.showGridToolStripMenuItem.Name = "showGridToolStripMenuItem";
-            this.showGridToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.showGridToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.showGridToolStripMenuItem.Text = "Show grid";
             // 
             // panel1
@@ -134,11 +134,13 @@
             this.panel1.Size = new System.Drawing.Size(200, 596);
             this.panel1.TabIndex = 1;
             // 
-            // renderSurface
+            // schematicSurface
             // 
+            this.schematicSurface.CircuitComponents = null;
             this.schematicSurface.Dock = System.Windows.Forms.DockStyle.Fill;
             this.schematicSurface.Location = new System.Drawing.Point(200, 24);
-            this.schematicSurface.Name = "renderSurface";
+            this.schematicSurface.Name = "schematicSurface";
+            this.schematicSurface.SelectedComponent = null;
             this.schematicSurface.Size = new System.Drawing.Size(739, 596);
             this.schematicSurface.TabIndex = 2;
             // 
